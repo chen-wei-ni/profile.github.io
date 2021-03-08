@@ -1,0 +1,53 @@
+﻿@media screen and (min-width:601px) and (max-width:888888px) {
+.my-work  {
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:15px;
+}
+
+.my-work  div {
+	width:310px;
+}
+.each-pic {
+	margin:5px;
+	box-shadow: 1px 2px 5px #dddddd;
+	opacity:0.3;
+	}
+.each-pic:hover {
+	opacity:1;
+	transition:0.5s;
+}
+	.each-pic p{
+		margin:7px;
+		color:#4c4c4c;
+	}
+	.each-pic p span{
+		margin-right:5px;
+		font-size:10pt;
+	}
+	.each-pic img {
+		width:100%;
+	}
+.row-list {
+	display:flex;
+}
+	.my-work-2 {
+		width:390px;
+	}
+	.my-work-3 {
+		width:250px;
+	}
+}
+@media screen and (min-width:10px) and (max-width:600px) {
+	.main {
+		margin:15px 0;
+	}
+	.each-pic {
+		margin:5px;		
+	}
+
+	.each-pic div img {
+		width:100%;
+	}
+	
+}

@@ -1,0 +1,33 @@
+﻿@media screen and (min-width:601px) and (max-width:888888px) {
+.each-edm {
+	box-shadow: 1px 2px 5px #dddddd;
+	margin:25px 0;
+}
+.each-edm div a:hover{
+	opacity:0.5;
+	transition:0.5s;
+}
+.edm-desc {
+	padding:15px;
+}
+.edm-desc  h3 {
+	margin:5px 0;
+}
+.edm-desc  p {
+	margin:5px 0 5px 0;
+}
+
+#edm-part .each-edm div {
+	width:649px;
+	margin: 0 auto;
+}
+#edm-part .each-edm div img {
+	width:100%;
+}
+}
+@media screen and (min-width:10px) and (max-width:600px) {
+
+	.each-edm div img {
+		width:100%;
+	}
+}

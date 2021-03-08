@@ -1,0 +1,152 @@
+﻿<html>
+<head>
+	<meta name="viewport" content="width=device-width,  initial-scale=1">
+	<title>RESUME</title>
+	<link href="css/edm.css" rel="stylesheet">
+	<link href="../css/resume.css" rel="stylesheet" media="screen and (min-width:601px)">
+	<link href="../css/resume-sm.css" rel="stylesheet"  media="screen and (max-width:600px)">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+
+	<script>
+	$(document).ready(function(){
+		$('#a01').hover(function(){
+			$(this).attr("src","../images/resume.svg");
+			},
+			function(){
+				$(this).attr("src","../images/resume_2.svg")
+			});
+			$('.menu a').click(function() {
+			$('.link').animate({right: 0}, 600);
+		});
+		$('.close-btn').click(function() {
+			$('.link').animate({right: '-360px'}, 600);
+			});
+		});
+	</script>
+	
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="header-info">
+				<div>
+					<a href="../index.html"><img src="../images/resume_2.svg" id="a01"></a>
+				</div>
+			</div>
+			<div class="menu">
+				<a href="#">
+					<img src="../images/menu.svg">
+				</a>
+			</div>
+		</header>
+		<div class="fixed-width">
+			<div class="main">
+				<div id="edm-part">
+					<div class="each-edm">
+						<div><a href="https://chen-wei-ni.github.io/CAR1-Investor-Relations.github.io/index.html" target="_blank"><img src="images/invest
+						.jpg"></a></div>
+						<div class="edm-desc">
+							<h3>新官網-投資人專區前端設計</h3>
+							<p>主要是以富邦MOMO之投資人專區為模版設計<br>
+							另外參考內部財務部門的意見，逐漸架設，接著交由後端工程師完成!
+							</p>
+						</div>						
+					</div>
+				</div>				
+			</div>
+			<!--右側 -->
+			<div class="side">
+				<div class="link">
+					<a href="#" class="close-btn"><img src="../images/cancel.svg"></a>
+					<p class="cato-title">CATEGORY</p>
+					<ul>
+						<li><a href="banner.html">Banner設計</a></li>
+						<li><a href="edm.html">EDM設計</a></li>
+						<li><a href="">Others 其他</a></li>
+						<li><a href="https://github.com/chen-wei-ni"target="_blank">Github</a></li>
+					</ul>
+				</div>
+				<div class="profile">
+					<p class="cato-title">PROFILE</p>
+					<div class="selfie">
+						<img src="../images/my-me-i.jpg">
+					</div>
+					<div class="me-detail">
+						<strong>陳薇妮 Wei Ni</strong>
+						<p>1996/02/26</p>
+						<p>從高二開始累積打工經驗,
+						正職工作已經超過兩年</p>
+						<p>喜歡漫畫、桌遊、"吸貓"</p>
+						<p class="sm-title"><span>/</span><strong>平面設計技能</strong><span>/</span></p>
+						<div class="skills">
+							<p>Adobe Illustrator
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+							</p>
+							<p>Adobe Photoshop
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+							</p>
+						</div>
+						<p class="sm-title"><span>/</span><strong>網頁設計技能</strong><span>/</span></p>
+						<div class="skills">
+							<p>HTML
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+							</p>
+							<p>CSS
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+							</p>
+							<p>Jquery
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star "></span>
+								<span class="fa fa-star "></span>
+								<span class="fa fa-star"></span>
+							</p>								
+						</div>
+						<p class="sm-title"><span>/</span><strong>其他技能</strong><span>/</span></p>
+						<div class="skills">
+							<p>Adobe XD
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star "></span>
+								<span class="fa fa-star "></span>
+								<span class="fa fa-star"></span>
+							</p>
+							<p>Adobe premiere
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star "></span>
+								<span class="fa fa-star "></span>
+								<span class="fa fa-star"></span>
+							</p>
+							<p>Microsoft Office
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
