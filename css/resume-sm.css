@@ -97,13 +97,12 @@ header {
 			margin:0;
 			text-align:center;
 			letter-spacing:5px;
-			padding:0 20px 15px 20px ;
+			padding:5px ;
 		}
 		
 		.link ul li {
 			list-style:none;
-			padding:5px 0;
-			display:table-row;
+			text-align:center;
 			}
 		.link ul li::after{
 			content:"";
@@ -120,6 +119,7 @@ header {
 			color:#4f4f4f;
 			font-weight:bold;
 			display:block;
+			padding:10px 0;
 		}
 		.cato-title {
 		font-size:1.3rem;
