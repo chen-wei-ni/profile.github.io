@@ -73,6 +73,7 @@ header {
 		}
 	/*Side*/
 		.selfie {
+			width:180px;
 			margin:0 auto;
 		}
 		.selfie img {
