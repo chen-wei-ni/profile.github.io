@@ -94,7 +94,7 @@ header {
 		.more-btn a:before{
 			content:"";
 			position:absolute;
-			right:7%;
+			right:7.5%;
 			top:calc( 50% - 4px );
 			border:8px solid;
 			border-color:#d3bd85 transparent transparent transparent;
