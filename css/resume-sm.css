@@ -113,14 +113,7 @@ header {
 			color:#494949;
 			font-weight:bold;
 		}
-		.more-btn a:before{
-			content:"";
-			position:absolute;
-			right:calc( 15% );
-			top:calc( 50% - 4px );
-			border:8px solid;
-			border-color:#d3bd85 transparent transparent transparent;
-		}
+		
 		/*MARKER 把他mark起來~*/
 		.high-light{
 			background:linear-gradient(transparent 50%,#ffed9f 50%);
