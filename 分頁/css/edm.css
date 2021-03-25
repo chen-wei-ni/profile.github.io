@@ -1,4 +1,4 @@
-﻿@media screen and (min-width:601px) and (max-width:888888px) {
+﻿@media screen and (min-width:1040px) and (max-width:888888px) {
 .each-edm {
 	box-shadow: 1px 2px 5px #dddddd;
 	margin:25px 0;
@@ -25,7 +25,7 @@
 	width:100%;
 }
 }
-@media screen and (min-width:10px) and (max-width:600px) {
+@media screen and (min-width:10px) and (max-width:1039px) {
 
 	.each-edm div img {
 		width:100%;
