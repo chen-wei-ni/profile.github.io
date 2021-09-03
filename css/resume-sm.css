@@ -140,9 +140,9 @@ header {
 		.link {
 			margin-bottom:30px;
 		}
-
 		.link img {
 			width:20px;
+			margin:8px;
 		}
 		.link,.profile { 
 			background-color:#fff;
@@ -225,4 +225,13 @@ header {
 		background-color:rgba(255,250,217,0.7);	
 		width:180px;
 		z-index:10;/*移至最上層*/
+		}
+
+		/*BN*/
+		.each-pic div img {
+			width:100%;
+		}
+		/*EDM*/
+		.each-edm {
+			margin-bottom:30px;
 		}

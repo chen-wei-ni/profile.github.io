@@ -1,5 +1,6 @@
 ﻿@media screen and (min-width:1040px) and (max-width:888888px) {
-.each-edm {
+
+	.each-edm {
 	box-shadow: 1px 2px 5px #dddddd;
 	margin:25px 0;
 }

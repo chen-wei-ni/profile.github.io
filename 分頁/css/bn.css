@@ -39,13 +39,19 @@
 	.my-work-3 {
 		width:250px;
 	}
-}
+	.my-work-4 {
+		flex-basis: 35%;
+	}
+	.my-work-5 {
+		flex-basis: 63%;
+	}
 @media screen and (min-width:10px) and (max-width:1040px) {
 	.main {
 		margin:15px 0;
+		
 	}
 	.each-pic {
-		margin:5px;		
+		margin:5px;	
 	}
 
 	.each-pic div img {
