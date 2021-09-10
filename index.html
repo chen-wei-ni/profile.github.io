@@ -2,7 +2,8 @@
 <head>
 	<meta name="viewport" content="width=device-width,  initial-scale=1">
 	<title>\ Weini's Profile /</title>
-	<link href="css/resume.css" rel="stylesheet" media="screen and (min-width:601px)">
+	<link href="css/resume.css" rel="stylesheet" media="screen and (min-width:1024px)">
+	<link href="css/resume-md.css" rel="stylesheet" media="screen and (min-width:601px) and (max-width:1023px">
 	<link href="css/resume-sm.css" rel="stylesheet"  media="screen and (max-width:600px)">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
@@ -16,7 +17,7 @@
 				$(this).attr("src","images/resume_2.svg")
 			});
 		$('.menu a').click(function() {
-			$('.link').animate({right: 0}, 600);
+			$('.link').animate({right: 0}, 600);			
 		});
 		$('.close-btn').click(function() {
 			$('.link').animate({right: '-360px'}, 600);

@@ -24,7 +24,7 @@ body {
 	flex-wrap:wrap;
 }
 
-@media screen and (min-width:1040px) and (max-width:888888px) {
+
 header {
 	background-color:#fff;
 	width:100%;
@@ -45,7 +45,6 @@ header {
 	} 
 .fixed-width {
 	display:flex;
-	flex-wrap:wrap;
 	margin:0 auto;
 	width:1120px;
 	justify-content:center;
@@ -56,7 +55,7 @@ header {
 	}
 	.main {
 		background-color:#fff;
-		flex-basis:58%;	
+		flex-basis:50%;	
 		margin: 0 40px 20px 0;
 		padding:5px 30px;
 		
@@ -190,7 +189,6 @@ header {
 		display:none;
 	}
 	.side {
-		width:330px;
 		margin:0 0 20px 0;
 	}
 	.link {
@@ -269,195 +267,47 @@ header {
 	.checked {
 		color:orange;
 	}
-}
-@media screen and (min-width:601px) and (max-width:1039px) {
-	header {
-	background-color:#fff;
-	width:100%;
-	display:flex;
-	box-shadow: 1px 1px 8px rgba(249,225,185,0.5);
-}
-	.header-info {
-		margin:0 auto;
+	/*bn*/
+	.my-work  {
+		display:flex;
+		flex-wrap:wrap;
+		margin: 0 auto;
+	}	
+	.my-work  div {
+		width:310px;		
 	}
-	.header-info div {
-		width:180px;
-		margin:0 auto;
-		padding:20px 0;
-	}
-	.header-info div img {
-		width:180px;
-	} 
-	.fixed-width {
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
-	margin:0 15px;
-	padding:20px 0 0 0;
-	}
-		.main {
-		background-color:#fff;
-		padding:5px 18px;
-		margin:0 0 20px 0;
+	.each-pic {
+		margin:5px;
+		box-shadow: 1px 2px 5px #dddddd;
+		opacity:0.3;
 		}
-
-		h3::before{
-			content:"";
-			width:8px;
-			height:8px;
-			border:3px #d3bd85 solid;
-			display:inline-block;
-			border-radius: 100%;
-			margin-right:5px;
-		}
-		.main h3 {
-			font-family:源黑體-R;
-			font-weight:600;
-			font-size:1.2rem;
-		}
-		.main div p{
-			font-family:圓體;
-			line-height:20pt;
-			letter-spacing:1px;
-		}
-		.more-btn {
-			display:flex;
-			justify-content:flex-end;
-			position:relative;
-		}
-		.more-btn a {
-			display:block;
-			text-decoration:none;
-			color:#494949;
-			font-weight:bold;
-		}
-		.more-btn a:before{
-			content:"";
-			position:absolute;
-			right:6.5%;
-			top:calc( 50% - 4px );
-			border:8px solid;
-			border-color:#d3bd85 transparent transparent transparent;
-		}
-		.position {
-			border-left: 2px solid #d3bd85;
-			padding-left:8px;
-		}
-		.work-ex ul {
-			list-style:none;
-		}
-		.work-ex ul span{
-			display:block;
-			margin:5px 0 10px 18px;
-		}
-		.work-ex ul li:before {
-			content:"";
-			position:;
-			width:5px;
-			height:5px;
-			background-color:#d3bd85;
-			display:inline-block;
-			border-radius: 50%;
-			margin-right:8px;
-		}
-		.work-ex p{
-			margin:5px 0;
-		}
-		/*MARKER 把他mark起來~*/
-		.high-light{
-			background:linear-gradient(transparent 50%,#ffed9f 50%);
-		}
-		/*畢業時間*/
-		.graduate {
-			display:flex;
-			justify-content:space-between;
-			align-content:center;
-			line-height:12pt;
-		}
-
-	.close-btn {
-		display:none;
-	}
-	/*側邊*/
-	.side {
-		width:100%;	
-		padding:5px 12px;
-		margin:0 0 20px 0;
-	}
-	.link {
-		margin-bottom:30px;
-	}
-	.link,.profile { 
-		background-color:#fff;
-	}
-
-	.link ul {
-		margin:0;
-		text-align:center;
-		letter-spacing:5px;
-		padding:0 20px 15px 20px ;
-	}
-	
-	.link ul li {
-		list-style:none;
-		padding:5px 0;
-		}
-	.link ul li::after{
-		content:"";
-		background: url('../images/line.svg') repeat-x 0 0;
-		height:2px;
-		width:100%;
-		position:relative;
-		display:block;
-		background-size:6.55px 3px;
-		z-index:2;
-	}
-	.link ul li a {
-		text-decoration:none;
-		color:#000;
-	}
-	.link ul li a:hover {
-		opacity:0.5;
+	.each-pic:hover {
+		opacity:1;
 		transition:0.5s;
 	}
-	
-	.cato-title {
-		font-size:1.3rem;
-		font-weight:bolder;
-		text-align:center;
-		margin:0;
-		padding:10px 0;
-		font-family:Black;
+		.each-pic p{
+			margin:7px;
+			color:#4c4c4c;
+		}
+		.each-pic p span{
+			margin-right:5px;
+			font-size:10pt;
+		}
+		.each-pic img {
+			width:100%;
+		}
+	.row-list {
+		display:flex;
 	}
-	.selfie {
-		width:220px;
-		margin:0 auto;
-	}
-	.selfie img {
-		width:100%;
-	}
-	.me-detail {
-		margin-top:5px;
-		padding:0 10px 5px 10px;
-		text-align:center;
-		color:#494949;
-	}
-	.me-detail p{
-		margin:10px 0;
-	}
-	p.sm-title {
-		margin-top:30px;
-	}
-	p.sm-title strong{
-		padding:0 18px;
-	}
-	.skills {
-		
-		padding:0 10px;
-		line-height:18pt;
-	}
-	/*star-ranking*/
-	.checked {
-		color:orange;
-	}
-}
+		.my-work-2 {
+			width:390px;
+		}
+		.my-work-3 {
+			width:250px;
+		}
+		.my-work-4 {
+			flex-basis: 35%;
+		}
+		.my-work-5 {
+			flex-basis: 63%;
+		}

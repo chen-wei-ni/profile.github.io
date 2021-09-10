@@ -1,4 +1,4 @@
-﻿@media screen and (min-width:1040px) and (max-width:888888px) {
+﻿@media screen and (min-width:1040px) {
 .my-work  {
 	display:flex;
 	flex-wrap:wrap;
@@ -45,17 +45,4 @@
 	.my-work-5 {
 		flex-basis: 63%;
 	}
-@media screen and (min-width:10px) and (max-width:1040px) {
-	.main {
-		margin:15px 0;
-		
-	}
-	.each-pic {
-		margin:5px;	
-	}
 
-	.each-pic div img {
-		width:100%;
-	}
-	
-}

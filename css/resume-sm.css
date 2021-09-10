@@ -134,9 +134,10 @@ header {
 			width:100%;
 		}
 		.side {
-		font-family:圓體;
-		margin:0 0 20px 0;
-	}
+			font-family:圓體;
+			margin:0 0 20px 0;
+			
+		}
 		.link {
 			margin-bottom:30px;
 		}
@@ -219,7 +220,7 @@ header {
 		position:fixed;
 		margin:5px 0 0 0;
 		padding:0;
-		right:0;
+		right:-180px;
 		top:0;
 		list-style:none;
 		background-color:rgba(255,250,217,0.7);	
@@ -228,9 +229,19 @@ header {
 		}
 
 		/*BN*/
+		.main {
+			margin:15px 0;
+			
+		}
+		.each-pic {
+			margin:5px;	
+		}
+	
 		.each-pic div img {
 			width:100%;
 		}
+		
+	}
 		/*EDM*/
 		.each-edm {
 			margin-bottom:30px;
