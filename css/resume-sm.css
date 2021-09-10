@@ -137,7 +137,7 @@ header {
 		.side {
 			font-family:圓體;
 			margin:0 0 20px 0;
-			
+			width: 100%;
 		}
 		.link {
 			margin-bottom:30px;
@@ -202,7 +202,6 @@ header {
 			padding:0 18px;
 		}
 		.skills {
-			text-align:left !important;
 			padding:0 10px;
 			line-height:18pt;
 		}
