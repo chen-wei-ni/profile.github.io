@@ -24,7 +24,6 @@ body {
 	flex-wrap:wrap;
 }
 
-
 header {
 	background-color:#fff;
 	width:100%;
@@ -48,14 +47,14 @@ header {
 	margin:0 auto;
 	width:1120px;
 	justify-content:center;
-	padding:20px 0 0 0;
+	padding:20px 15px;
 	}
 	.menu {
 		display:none;
 	}
 	.main {
 		background-color:#fff;
-		flex-basis:50%;	
+		flex:2;	
 		margin: 0 40px 20px 0;
 		padding:5px 30px;
 		
@@ -190,6 +189,7 @@ header {
 	}
 	.side {
 		margin:0 0 20px 0;
+		flex: 1;
 	}
 	.link {
 		margin-bottom:30px;
@@ -246,8 +246,11 @@ header {
 	.me-detail {
 		margin-top:5px;
 		padding:0 10px 5px 10px;
-		text-align:center;
 		color:#494949;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
 	}
 	.me-detail p{
 		margin:10px 0;
@@ -310,4 +313,30 @@ header {
 		}
 		.my-work-5 {
 			flex-basis: 63%;
+		}
+	/*EDM*/
+	.each-edm {
+		box-shadow: 1px 2px 5px #dddddd;
+		margin:25px 0;
+		}
+		.each-edm div a:hover{
+			opacity:0.5;
+			transition:0.5s;
+		}
+		.edm-desc {
+			padding:15px;
+		}
+		.edm-desc  h3 {
+			margin:5px 0;
+		}
+		.edm-desc  p {
+			margin:5px 0 5px 0;
+		}
+		
+		#edm-part .each-edm div {
+			
+			margin: 0 auto;
+		}
+		#edm-part .each-edm div img {
+			width:100%;
 		}

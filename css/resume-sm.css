@@ -52,7 +52,6 @@ header {
 	
 	h3::before{
 			content:"";
-			position:;
 			width:8px;
 			height:8px;
 			border:3px #d3bd85 solid;
@@ -71,9 +70,10 @@ header {
 			font-family:源黑體-R;
 			font-weight:600;
 			font-size:1.2rem;
+			margin: 5px 0 0 0;
 		}
 		.about-me div p{
-			font-size:1rem;
+			font-size:0.95rem;
 			line-height:20pt;
 			letter-spacing:1px;
 		}
@@ -81,7 +81,7 @@ header {
 			display:block;
 			margin:0;
 			color:#686664;
-			font-size:0.9rem;
+			font-size:0.8rem;
 			line-height:10pt;
 		}
 		.work-ex ul {
@@ -91,6 +91,7 @@ header {
 		.work-ex ul span{
 			display:block;
 			margin:5px 0 10px 18px;
+			font-size: 0.9rem;
 		}
 		.work-ex ul li:before {
 			content:"";
@@ -239,10 +240,13 @@ header {
 	
 		.each-pic div img {
 			width:100%;
-		}
-		
-	}
+		}		
 		/*EDM*/
-		.each-edm {
-			margin-bottom:30px;
+		.edm-desc p {
+			margin: 10px 0 20px 0;
+			font-size: 0.9rem;
+			line-height: 1.5rem;
+		}
+		.each-edm div img {
+			width:100%;
 		}
